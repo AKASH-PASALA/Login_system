@@ -1,0 +1,38 @@
+# User database and personal information
+data/*.csv
+data/*.bak
+data/*.backup
+
+# Executable files
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Debugging files
+*.log
+*.tmp
+
+# Backup files
+*.bak
+*.old
+*~
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Build directories
+build/
+out/
+
+# Windows generated files
+Thumbs.db
+Desktop.ini
